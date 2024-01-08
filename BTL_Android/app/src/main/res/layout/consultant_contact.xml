@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="4dp"
+    android:background="@drawable/main1_button_background"
+    android:padding="8dp"
+    tools:context="LEMINHKHOI.ConsultantContact">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/main1_button_background"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="MissingConstraints" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Email:"
+        android:textSize="24dp"/>
+    <TextView
+        android:id="@+id/txt_email_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chủ đề:"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/txt_title_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:hint="Nhập tiêu đề"
+        android:textSize="18dp"
+        android:text="Kính gửi thầy/cô ....., Em có đôi chút khó khăn trong vấn đề.... Mong thầy/cô hỗ trợ em!" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nội dung: "
+        android:textSize="24dp"></TextView>
+    <EditText
+        android:id="@+id/txt_description_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập văn bản..."
+        android:inputType="textMultiLine"
+        android:lines="6"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_sendEmail_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Gửi!"
+            android:textSize="18dp"></Button>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="* Văn bản gửi đi dưới dạng Email! Chú ý bố cục và nội dung viết!"
+        android:textColor="#FF0000"></TextView>
+</LinearLayout>

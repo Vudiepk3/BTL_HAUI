@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuTBC"
+        android:title="Trung Bình Chung Tích Lũy"/>
+    <item android:id="@+id/menuThongKe"
+        android:title="Thông Kê Kết Quả Học Tập"/>
+
+
+</menu>

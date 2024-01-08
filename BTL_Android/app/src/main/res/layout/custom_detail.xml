@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/textViewMaHocPhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã học phần"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/textViewDisplayMaHocPhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hiển thị mã học phần"
+        android:textColor="@color/design_default_color_error" />
+
+    <TextView
+        android:id="@+id/textViewTenHocPhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Tên học phần"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/textViewDisplayTenHocPhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hiển thị tên học phần"
+        android:textColor="@color/design_default_color_error" />
+
+    <TextView
+        android:id="@+id/textViewSoTinChi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Số tín chỉ"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/textViewDisplaySoTinChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hiển thị số tín chỉ"
+        android:textColor="@color/design_default_color_error" />
+
+    <TextView
+        android:id="@+id/textViewLoaiHocPhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Loại học phần"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/textViewDisplayLoaiHocPhan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hiển thị loại học phần"
+        android:textColor="@color/design_default_color_error" />
+
+    <TextView
+        android:id="@+id/textViewHocKy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Học kỳ"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/textViewDisplayHocKy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Hiển thị học kỳ"
+        android:textColor="@color/design_default_color_error" />
+
+</LinearLayout>
